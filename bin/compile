@@ -1,2 +1,2 @@
 #!/bin/sh
-printf '      %s\n' "Nothing to do, it's that simple"
+printf '       %s\n' "Nothing to do, it's that simple"
