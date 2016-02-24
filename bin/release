@@ -1,0 +1,5 @@
+cat <<YAML
+---
+default_process_types:
+  web: /app/simple
+YAML
