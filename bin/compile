@@ -1,2 +1,2 @@
 #!/bin/sh
-cp simple $1/
+printf '      %s\n' "Nothing to do, it's that simple"
