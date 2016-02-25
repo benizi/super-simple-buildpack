@@ -1,5 +1,5 @@
 cat <<YAML
 ---
 default_process_types:
-  web: /app/simple
+  web: "socat tcp-listen:$PORT,reuseaddr,fork,crlf exec:/app/simple"
 YAML
