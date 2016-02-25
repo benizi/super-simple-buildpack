@@ -1,4 +1,4 @@
-cat <<YAML
+cat <<'YAML'
 ---
 default_process_types:
   web: "socat tcp-listen:$PORT,reuseaddr,fork,crlf exec:/app/simple"
